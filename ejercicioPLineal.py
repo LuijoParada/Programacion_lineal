@@ -1,3 +1,8 @@
+x_optimo =0
+y_optimo =0
+ingresos_maximos =0
+max_tartas = max(int(10 /0.5), int(120 / 8))
+
 def restriccion_azucar(x, y):
     return 0.5*x + y <= 10
 
@@ -6,12 +11,7 @@ def restriccion_huevos(x, y):
 
 def ingresos(x, y):
     return 8*x + 10*y
-
-max_tartas = max(int(10 /0.5), int(120 / 8))
-x_optimo =0
-y_optimo =0
-ingresos_maximos =0
-
+    
 for x in range(max_tartas + 1):
     for y in range(max_tartas + 1):
         if restriccion_azucar(x, y) and restriccion_huevos(x, y):
