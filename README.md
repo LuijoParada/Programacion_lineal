@@ -1,3 +1,5 @@
-# Programacion_lineal UwU
+# Programacion_lineal UwU owo
 
-Ejercicio de programacion lineal
+Ejercicio de programacion lineal 
+
+aaaaaa
